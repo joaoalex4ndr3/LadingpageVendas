@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Digital Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+
+      <!-- Mobile: hamburger -->
+      <button class="nav-hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <a href="#" class="nav-logo">The Digital Atelier</a>
+
+      <!-- Desktop: links centrais -->
+      <nav class="nav-center">
+        <a href="#collections">Collections</a>
+        <a href="#arrivals">New Arrivals</a>
+        <a href="#journal">Journal</a>
+        <a href="#story">Our Story</a>
+      </nav>
+
+      <!-- Ícones direita -->
+      <div class="nav-right">
+        <button class="icon-btn" aria-label="Cart">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <path d="M16 10a4 4 0 0 1-8 0" />
+          </svg>
+        </button>
+        <button class="icon-btn" aria-label="Account">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile drawer menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="#collections">Collections</a>
+        <a href="#arrivals">New Arrivals</a>
+        <a href="#journal">Journal</a>
+        <a href="#story">Our Story</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="collections">
+    <div class="hero-text">
+      <h1 class="hero-title">
+        Curated<br />
+        Artistry for<br />
+        the <em class="accent-em">Modern<br />Life</em>
+      </h1>
+      <p class="hero-body">Discover a symphony of design and utility. Every piece in our collection is an intentional
+        statement for the discerning aesthetic.</p>
+      <div class="hero-ctas">
+        <button class="btn-primary">Explore Collection</button>
+        <button class="btn-text-icon">
+          Watch Film
+        </button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-img-main">
+        <img src="Assets\living-space.png" alt="" />
+      </div>
+      <div class="hero-img-float">
+        <img src="Assets/ceramic.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── THE ATELIER STANDARD ── -->
+  <section class="standard-section" id="story">
+    <div class="container">
+      <div class="standard-header">
+        <div class="standard-header-left">
+          <p class="eyebrow">The Philosophy</p>
+          <h2 class="section-title">The Atelier Standard</h2>
+        </div>
+        <p class="standard-header-right">Defined by three pillars of uncompromising excellence in digital and physical
+          craft.</p>
+      </div>
+      <div class="standard-grid">
+
+        <div class="std-card">
+          <div class="std-icon icon-purple">
+            <img class="feature-icon" src="Assets/verified.png" alt="Verificado">
+          </div>
+          <h3>Artisan Verified</h3>
+          <p>Each piece is individually inspected and certified by master artisans to ensure heirloom quality.</p>
+        </div>
+
+        <div class="std-card">
+          <div class="std-icon icon-pink">
+            <img class="feature-icon" src="Assets/eco.png" alt="Eco Icon">
+          </div>
+          <h3>Sustainable Flow</h3>
+          <p>Conscious sourcing and ethical production cycles that prioritize our planet's ecological longevity.</p>
+        </div>
+
+        <div class="std-card">
+          <div class="std-icon icon-blue">
+            <img class="feature-icon" src="Assets/public.png" alt="Public Icon">
+          </div>
+          <h3>Global Priority</h3>
+          <p>White-glove delivery to any corner of the globe, handled with the utmost care and precision.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURED DROPS ── -->
+  <section class="drops-section" id="arrivals">
+    <div class="container">
+      <div class="drops-header">
+        <h2 class="section-title-lg">Featured Drops</h2>
+        <a href="#" class="view-all">View All Collections →</a>
+      </div>
+
+      <div class="drops-grid">
+
+        <article class="drop-card">
+          <div class="drop-img">
+            <img src="Assets\indigo-series-01.png" alt="Terno" />
+            <span class="drop-badge">Limited</span>
+          </div>
+          <div class="drop-meta">
+            <div class="drop-info">
+              <h4>The Indigo Series 01</h4>
+              <p>1 Piece</p>
+            </div>
+            <span class="drop-price">$450</span>
+          </div>
+        </article>
+
+        <article class="drop-card">
+          <div class="drop-img">
+            <img src="Assets\coisa.jpeg" alt="Tidal Ceramic Vessel" />
+          </div>
+          <div class="drop-meta">
+            <div class="drop-info">
+              <h4>Tidal Ceramic Vessel</h4>
+              <p>Home Objects</p>
+            </div>
+            <span class="drop-price">$180</span>
+          </div>
+        </article>
+
+        <article class="drop-card">
+          <div class="drop-img">
+            <img src="Assets\atelier-chrono-silver.png" alt="Atelier Chrono Silver" />
+          </div>
+          <div class="drop-meta">
+            <div class="drop-info">
+              <h4>Atelier Chrono Silver</h4>
+              <p>Timepiece</p>
+            </div>
+            <span class="drop-price">$620</span>
+          </div>
+        </article>
+
+        <article class="drop-card">
+          <div class="drop-img">
+            <img src="Assets\sonic-bloom-headphones.png" alt="Sonic Bloom Headphones" />
+          </div>
+          <div class="drop-meta">
+            <div class="drop-info">
+              <h4>Sonic Bloom Headphones</h4>
+              <p>Audio</p>
+            </div>
+            <span class="drop-price">$340</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section class="test-section">
+    <div class="test-inner">
+      <h2 class="test-title">Words from the Atelier</h2>
+      <div class="test-grid">
+
+        <div class="test-card">
+          <img class="test-qq" src="Assets\quote.png" alt="Aspas">
+
+          <p class="test-body">
+            "The attention to detail is bordering on obsessive. My Indigo Series watch isn't just a
+            tool; it's a piece of kinetic art that I wear every single day."
+          </p>
+
+          <div class="test-author">
+            <div class="t-avatar av1">
+              <img src="Assets/elena_vance.png" alt="Elena Vance">
+            </div>
+
+            <div>
+              <strong>Elena Vance</strong>
+              <span>Creative Director, &amp;IA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="test-card">
+          <img class="test-qq" src="Assets\quote.png" alt="Aspas">
+
+  <p class="test-body">
+    "Finding products that balance sustainability with high-end design is rare. The Digital
+    Atelier has mastered this intersection perfectly."
+  </p>
+
+  <div class="test-author">
+    <div class="t-avatar av2">
+      <img src="Assets/julian_thorne.png" alt="Julian Thorne">
+    </div>
+
+    <div>
+      <strong>Julian Thorne</strong>
+      <span>Principal Architect</span>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div><!-- /test-inner -->
+  </section>
+
+  <!-- ── JOIN THE INNER CIRCLE ── -->
+  <section class="circle-section" id="journal">
+    <div class="container">
+      <p class="circle-eyebrow">Exclusives</p>
+      <h2 class="circle-title">Join the Inner Circle</h2>
+      <p class="circle-body">Receive early access to limited drops, artist interviews, and invitations to private
+        gallery showings.</p>
+      <div class="circle-form">
+        <input type="email" id="emailInput" placeholder="Enter your email" class="circle-input" />
+        <button class="btn-subscribe" id="subscribeBtn">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <span class="footer-logo">The Digital Atelier</span>
+        <nav class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Shipping &amp; Returns</a>
+          <a href="#">Instagram</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+      <p class="footer-copy">© 2024 The Digital Atelier. Crafted for the Curated.</p>
+    </div>
+  </footer>
+
+  <!-- Overlay mobile menu -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
